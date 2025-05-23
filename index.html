@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Age Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <h2>  Age Calculator </h2>
+
+    <div class="section">
+      <p><strong>Birth Date:</strong></p>
+      <input type="number" id="birthDay" placeholder="DD" min="1" max="31" />
+      <input type="number" id="birthMonth" placeholder="MM" min="1" max="12" />
+      <input type="number" id="birthYear" placeholder="YYYY" min="1900" />
+    </div>
+
+    <div class="section">
+      <p><strong>Today's Date (optional):</strong></p>
+      <input type="number" id="todayDay" placeholder="DD" min="1" max="31" />
+      <input type="number" id="todayMonth" placeholder="MM" min="1" max="12" />
+      <input type="number" id="todayYear" placeholder="YYYY" min="1900" />
+    </div>
+
+    <button onclick="calculateAge()">Calculate Age</button>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
