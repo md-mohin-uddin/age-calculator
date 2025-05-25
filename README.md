@@ -22,8 +22,9 @@ A stylish and responsive age calculator built with **HTML**, **CSS**, and **Java
 git clone https://github.com/yourusername/age-calculator.git
 ```
 2. **Open the folder**
-
-  ```cd age-calculator```
+```bash
+  cd age-calculator
+```
 
 3. **Run in browser**
    
